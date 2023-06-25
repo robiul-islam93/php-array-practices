@@ -75,5 +75,7 @@ foreach($krsort as $value => $key){
     echo $value. " " . $key;
 }
 
+$biscuit = array("oreo", "energy", "pineapple");
+
 
 // ksort() -  sort associative arrays in descending order, according to the key end
