@@ -3,7 +3,7 @@
 // sort() - sort arrays in ascending order.
 // rsort() - sort arrays in descending order.
 // asort() - sort associative arrays in ascending order, according to the value
-// krsort() - sort associative arrays in ascending order, according to the key
+// ksort() - sort associative arrays in ascending order, according to the key
 // arsort() - sort associative arrays in descending order, according to the value
 // ksort() -  sort associative arrays in descending order, according to the key
 
@@ -46,8 +46,9 @@ foreach($asort as $key => $value){
 // krsort() - sort associative arrays in ascending order, according to the key start
 
 
-$krsort = array(1,21,56,41,25,30,15,42,60,);
-print_r($krsort);
+$ksort = array(1,21,56,41,25,30,15,42,60,);
+ksort($ksort);//l
+print_r($ksort);
 
 // krsort() - sort associative arrays in ascending order, according to the key end
 
