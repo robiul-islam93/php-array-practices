@@ -51,13 +51,15 @@ $student_name = [
 $student_name [2] = "Robi";
 
 $newname = count($student_name);
-// for($i=0; $i < $newname; $i++){
-//     echo $student_name[$i];
-//     echo"<br>";
-// }
+for($i=0; $i < $newname; $i++){
+    echo $student_name[$i];
+    echo"<br>";
+}
 
 $student = array_push($student_name);
-// echo $student;
+echo $student;
+echo"<br>";
+echo"<br>";
 echo"<br>";
 
 
@@ -124,8 +126,6 @@ var_dump($food);
 
 
 
-
-
 $student_name = [
     'Ismail Vai',
     'Imtiaz Vai',
@@ -138,10 +138,11 @@ $student_name = [
     'Monir'
 ];
 
-$student_name [2]= "Boro Vabi";
+
+// $student_name [2]= "Boro Vabi";
 $newname = count($student_name);
 for($i=0; $i<$newname; $i++){
     echo $student_name[$i];
 }
 
-// print_r($student_name);
+print_r($student_name);
